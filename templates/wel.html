@@ -1,0 +1,23 @@
+<html>
+    <head> </head>
+    <body>
+        <center>
+            <h1>Add Details</h1>
+            <form method  = "post">
+                {% csrf_token %} 
+
+              Name : <input type = "text" name= "name"  required> </br></br>
+              Email : <input type = "email" name = "email" required ></br></br>
+              Enroll_date :  <input type = "date" name = "pur_date" required>
+    
+
+            <input type = "submit">
+
+
+
+        </center>
+    </body>
+    
+    
+    
+</html>
